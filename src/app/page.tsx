@@ -1,5 +1,5 @@
-import MainLayout from "@/layouts/mainLayout";
 import { metadata } from "./layout";
+import MainLayout from "./layouts/mainLayout";
 
 export default function Home() {
   metadata.title = "PWA | Home";
