@@ -1,3 +1,4 @@
+import HomePage from "./components/homePage";
 import { metadata } from "./layout";
 import MainLayout from "./layouts/mainLayout";
 
@@ -6,7 +7,7 @@ export default function Home() {
 
   return (
     <MainLayout>
-      <div>Whats That bro..???!!!</div>
+      <HomePage />
     </MainLayout>
   );
 }
