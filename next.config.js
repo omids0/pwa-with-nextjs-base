@@ -13,7 +13,10 @@ const withPWA = require("@ducanh2912/next-pwa").default({
 
 /** @type {import('next').NextConfig} */
 
+const isProd = (process.env.NODE_ENV = "production");
+
 const nextConfig = {
+  basePath: isProd ? "/pwa-with-nextjs-base" : "",
   output: "export",
   distDir: "dist",
   images: {
